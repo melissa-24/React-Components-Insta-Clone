@@ -4,19 +4,25 @@
   margin-left: 4px;
 }
 .comment {
-  font-size: 16px;
+  font-size: 14px;
 }
 .comment-form  {
-  margin: 10px 0;
+  margin-top: 10px;
+  padding: 0 10px;
   width: 100%;
 }
 .comment-form input {
   width: 100%;
   font-size: 14px;
-  padding: 10px;
+  padding: 20px 0px;
   border: none;
   border-top: 1px solid #efefef;
   color: #999;
+  background: none;
+}
+
+.comment-form input:focus {
+  outline: none;
 }
 .user {
   font-size: 14px;
